@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+}
+
+a:visited {
+  color: white;
+}
+
+ul {
+  padding-left: 0;
+}
+
+.form {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  margin: 10px;
+}
+
+input,
+select,
+button {
+  background-color: transparent;
+  border: 1px solid gray;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 0.6s;
+  padding: 8px;
+  cursor: pointer;
+}
+
+input:hover,
+select:hover,
+button:hover {
+  background-color: #2d2d2d;
+}
+
+select option {
+  background-color: black;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.post {
+  background-color: #56bc54;
+  transition: 0.6s;
+}
+
+.update {
+  background-color: #f2ac4b;
+  transition: 0.6s;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.post:hover {
+  background-color: #479c45;
+  border-radius: 5px;
+}
+
+.update:hover {
+  background-color: #ce8e35;
+}
+
+.tickets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ticket {
+  width: 450px;
+  height: 360px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: #2d2d2d;
+  display: flex;
+  text-align: left;
+}
+
+.ticketImage {
+  position: relative;
+}
+
+.ticketImage img {
+  width: 230px;
+  height: 360px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.ticketImage:hover .custom-file-upload {
+  background-color: rgba(0, 0, 0, 0.441);
+}
+
+.custom-file-upload {
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.152);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  z-index: 999;
+}
+
+.imageForm input,
+.imageForm button {
+  width: 150px;
+  font-size: 15px;
+}
+
+svg {
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  right: 0;
+  fill: whitesmoke;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+svg:hover {
+  fill: #f2ac4b;
+}
+
+.ticketText {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 20px;
+}
+
+.ticketText img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+}
+
+.delete {
+  border: 0px solid transparent;
+  border-radius: 20px;
+  background-color: #ee474f;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.delete:hover {
+  background-color: #e60913;
+  border-radius: 12px;
+}
+
+.editingSeat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 21.6px;
+}
+
+.editingSeat input {
+  width: 90%;
+}
